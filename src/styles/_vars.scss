@@ -1,0 +1,16 @@
+@use 'sass:math';
+
+// --- Breakpoints ---
+$mobileWidth: 375px;
+$desktopWitdh: 1440px;
+
+// --- Colors ---
+$almostWhite: hsl(0, 0%, 98%);
+$mediumGray: hsl(0, 0%, 41%);
+$almostBlack: hsl(0, 0%, 8%);
+
+// --- Typography ---
+$paragraphFontSize: 18px;
+$fontFamily: 'Epilogue';
+$fontWeightLight: 500;
+$fontWeightBold: 700;

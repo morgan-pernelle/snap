@@ -1,0 +1,71 @@
+@use 'src/styles/vars';
+
+.intro {
+  height: 50px;
+
+  &-wrapper {
+    background-color: vars.$almostWhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  &-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+
+  &-texts {
+    margin-left: 200px;
+    padding: 60px;
+  }
+
+  &-desc {
+    margin: 30px auto;
+    font-size: 18px;
+    font-weight: 500;
+    color: vars.$mediumGray;
+    line-height: 25px;
+  }
+
+  &-btn {
+    all: unset;
+    margin: 30px auto;
+    padding: 15px 30px;
+    border-radius: 15px;
+    color: vars.$almostWhite;
+    background-color: vars.$almostBlack;
+    border: 1px solid vars.$almostBlack;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+      color: vars.$almostBlack;
+      background-color: vars.$almostWhite;
+    }
+  }
+
+  &-clients {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-item {
+      transition: all .2s ease-in-out;
+    }
+
+    &-item:hover {
+      color: vars.$almostBlack;
+    }
+  }
+
+  &-img {
+    margin: auto 50px;
+    max-height: 650px;
+    margin-right: 300px;
+  }
+}
